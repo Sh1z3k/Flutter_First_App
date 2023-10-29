@@ -24,6 +24,7 @@ class HelloWorld extends StatelessWidget {
                 child: Text("pierwszy tekst")),
             SizedBox(height: 20),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 buildContainer("A"),
                 buildContainer("B"),
